@@ -1,11 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1200px" height="600px" font-size="14px">
-<defs>
-<linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-<stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
-<stop offset="100%" style="stop-color:#f6f8fa;stop-opacity:1" />
-</linearGradient>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="530px" font-size="16px">
 <style>
 @font-face {
 src: local('Consolas'), local('Consolas Bold');
@@ -16,102 +10,52 @@ size-adjust: 109%;
 }
 .key {fill: #d1a922;}
 .value {fill: #0969da;}
-.section {fill: #24292f;font-weight:bold;}
+.addColor {fill: #1a7f0f;}
+.delColor {fill: #cf222e;}
 .cc {fill: #57606a;}
 text, tspan {white-space: pre;}
 </style>
-<rect width="1200px" height="600px" fill="url(#bgGradient)" rx="12"/>
-<rect x="8" y="8" width="1184px" height="584px" fill="none" stroke="#d0d7de" stroke-width="1" rx="12"/>
-
-<!-- Left side: ASCII Art -->
-<text x="20" y="25" fill="#24292f" font-size="13px" letter-spacing="1px">
-<tspan x="20" y="25">?????????????????????????????</tspan>
-<tspan x="20" y="39">???????????????%S#########S%%</tspan>
-<tspan x="20" y="53">????????????%#@@@@@@@@@@@@@@@##S%</tspan>
-<tspan x="20" y="67">??????????%#@@@@@@@@@@@@@@@@@@@@@#%</tspan>
-<tspan x="20" y="81">?????????%#@##@@@@@@@@@@@@@@@@#@@##%</tspan>
-<tspan x="20" y="95">????????%#@@@@@@@@@##@@@@@@@@@##@@@@%</tspan>
-<tspan x="20" y="109">??????%%#@@@@@@@@@@@@@@@@@%#@@@@@@@@@%</tspan>
-<tspan x="20" y="123">??????S#@@@@@@@@@@@@@@@@@?:*@@#@@@@@@#%</tspan>
-<tspan x="20" y="137">???????%@@@@@@@@@@@@@@@@S:,;@#?@@@@@@%</tspan>
-<tspan x="20" y="151">????????%@@@@@@@@@@@@#S@S:,%S%S@@@@@#</tspan>
-<tspan x="20" y="165">?????????##+++S@@#S#S#@#SS?SSS#@@@@#</tspan>
-<tspan x="20" y="179">?????????#?,,::%?:,?:;%+,%+:?;:%%#@%</tspan>
-<tspan x="20" y="193">?????????%%?:,;,,,,:*+++*+,,:*+;?#%</tspan>
-<tspan x="20" y="207">???????????%S%#+,,,,,;;;:,,,;::+S%</tspan>
-<tspan x="20" y="221">????????????%S@@%;:,,,,,,;*+,,:?S</tspan>
-<tspan x="20" y="235">????????????%SS#S+*+;:,,,,:;:*%%?</tspan>
-<tspan x="20" y="249">??????????S#@@@@S;;++*+;+??S#S%</tspan>
-<tspan x="20" y="263">????????%#@@@@@@%,::;;;;?@@@@@@#%</tspan>
-<tspan x="20" y="277">????????#@@@@@@@#*:,,,,,,%@@@@@@@%</tspan>
-<tspan x="20" y="291">??????%####@@@@@@@@S%%%%%#@@@@@@@#%</tspan>
-<tspan x="20" y="305">?????##########@@@@@@@@@@@@@@@######%</tspan>
+<rect width="985px" height="530px" fill="#ffffff" rx="15" stroke="#d0d7de" stroke-width="1"/>
+<text x="15" y="30" fill="#24292f" class="ascii">
+<tspan x="15" y="30">+++++++++++++********++++++++++++++</tspan>
+<tspan x="15" y="50">+++++++++**#%@@@@@@@%%#**++++++++++</tspan>
+<tspan x="15" y="70">++++++++*%@@@@@@@@@@@@@@@%*++++++++</tspan>
+<tspan x="15" y="90">+++++++#@@%@@@@@@@@@@@@@@@%#+++++++</tspan>
+<tspan x="15" y="110">++++++*@@@@@@@@%@@@@@@@@%@@@#++++++</tspan>
+<tspan x="15" y="130">++++*#@@@@@@@@@@@@@@+#@@@@@@@#*++++</tspan>
+<tspan x="15" y="150">++++**@@@@@@@@@@@@@+ =@*@@@@@**++++</tspan>
+<tspan x="15" y="170">++++++*@@@@@@@@@@%@+.*##@@@@%++++++</tspan>
+<tspan x="15" y="190">+++++++%+:-#@#*#*@****#+@%@%*++++++</tspan>
+<tspan x="15" y="210">+++++++#=..:-..=:=:=-.=:-#%*+++++++</tspan>
+<tspan x="15" y="230">++++++++**+*....---: .:--#*++++++++</tspan>
+<tspan x="15" y="250">+++++++++*%@#-:.   .--.:+*+++++++++</tspan>
+<tspan x="15" y="270">++++++++*#%%%===-:..:=+**++++++++++</tspan>
+<tspan x="15" y="290">++++++*#@@@@%::--=-%%@@%#*+++++++++</tspan>
+<tspan x="15" y="310">++++++#@@@@@@=:....=@@@@@%+++++++++</tspan>
+<tspan x="15" y="330">++++*#%%@@@@@@%#*#*#@@@@@@#*+++++++</tspan>
+<tspan x="15" y="350">+++*%%%%%%%%@@@@@@@@@@@%%%%%#++++++</tspan>
+<tspan x="15" y="370">++*%%%%%%%%%%%%%%%@%%%%%%%%%%#+++++</tspan>
+<tspan x="15" y="390">+*%%%%%%%%%%%%%%%%%%%%%%%%%%%@#++++</tspan>
 </text>
-
-<!-- Divider -->
-<line x1="330" y1="15" x2="330" y2="585" stroke="#d0d7de" stroke-width="1"/>
-
-<!-- Right side: Profile Info -->
-<text x="360" y="35" fill="#0969da" font-size="22px" font-weight="bold">
-<tspan x="360" y="35">Adityaaa</tspan>
-</text>
-<text x="360" y="55" fill="#57606a" font-size="13px">
-<tspan x="360" y="55">@shellghostt • Full Stack Developer</tspan>
-</text>
-
-<!-- Section: System -->
-<text x="360" y="85" fill="#24292f">
-<tspan x="360" y="85" class="section">⚙️  SYSTEM</tspan>
-</text>
-<text x="370" y="105" fill="#24292f" font-size="13px">
-<tspan x="370" y="105"><tspan class="key">OS</tspan>: <tspan class="value">Windows, Linux</tspan></tspan>
-<tspan x="370" y="122"><tspan class="key">Editor</tspan>: <tspan class="value">VSCode</tspan></tspan>
-<tspan x="370" y="139"><tspan class="key">Shell</tspan>: <tspan class="value">PowerShell</tspan></tspan>
-</text>
-
-<!-- Section: Skills -->
-<text x="360" y="170" fill="#24292f">
-<tspan x="360" y="170" class="section">💻 SKILLS</tspan>
-</text>
-<text x="370" y="190" fill="#24292f" font-size="13px">
-<tspan x="370" y="190"><tspan class="key">Languages</tspan>: <tspan class="value">Python, JavaScript, Java</tspan></tspan>
-<tspan x="370" y="207"><tspan class="key">Frontend</tspan>: <tspan class="value">HTML, CSS, JSON</tspan></tspan>
-<tspan x="370" y="224"><tspan class="key">Focus</tspan>: <tspan class="value">Coding, Development</tspan></tspan>
-</text>
-
-<!-- Section: GitHub Stats -->
-<text x="360" y="260" fill="#24292f">
-<tspan x="360" y="260" class="section">📊 GITHUB STATS</tspan>
-</text>
-<text x="370" y="280" fill="#24292f" font-size="13px">
-<tspan x="370" y="280"><tspan class="key">Repositories</tspan>: <tspan class="value">5</tspan></tspan>
-<tspan x="370" y="297"><tspan class="key">Followers</tspan>: <tspan class="value">2</tspan></tspan>
-<tspan x="370" y="314"><tspan class="key">Following</tspan>: <tspan class="value">4</tspan></tspan>
-<tspan x="370" y="331"><tspan class="key">Member Since</tspan>: <tspan class="value">2023-09-12</tspan></tspan>
-</text>
-
-<!-- Section: Contact -->
-<text x="360" y="370" fill="#24292f">
-<tspan x="360" y="370" class="section">📧 CONTACT</tspan>
-</text>
-<text x="370" y="390" fill="#24292f" font-size="13px">
-<tspan x="370" y="390"><tspan class="key">Email</tspan>: <tspan class="value">addy.main061@gmail.com</tspan></tspan>
-<tspan x="370" y="407"><tspan class="key">GitHub</tspan>: <tspan class="value">github.com/Shellghostt</tspan></tspan>
-</text>
-
-<!-- Section: About -->
-<text x="360" y="445" fill="#24292f">
-<tspan x="360" y="445" class="section">🎯 ABOUT</tspan>
-</text>
-<text x="370" y="465" fill="#57606a" font-size="13px">
-<tspan x="370" y="465">Passionate developer exploring web and</tspan>
-<tspan x="370" y="482">systems programming. Always learning,</tspan>
-<tspan x="370" y="499">always building.</tspan>
-</text>
-
-<!-- Footer -->
-<line x1="20" y1="570" x2="1180" y2="570" stroke="#d0d7de" stroke-width="1"/>
-<text x="360" y="590" fill="#57606a" font-size="12px">
-<tspan x="360" y="590">✨ Welcome to my GitHub profile! ✨</tspan>
+<text x="390" y="30" fill="#24292f">
+<tspan x="390" y="30">Adityaaa@shellghostt</tspan> -———————————————————————————————————————————-—-
+<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Windows, Linux</tspan>
+<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Editor</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">VSCode</tspan>
+<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Shell</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">PowerShell</tspan>
+<tspan x="390" y="110" class="cc">. </tspan>
+<tspan x="390" y="130" class="cc">. </tspan><tspan class="key">Languages.Programming</tspan>:<tspan class="cc"> ... </tspan><tspan class="value">Python, JavaScript, Java</tspan>
+<tspan x="390" y="150" class="cc">. </tspan><tspan class="key">Languages.Web</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">HTML, CSS, JSON</tspan>
+<tspan x="390" y="170" class="cc">. </tspan>
+<tspan x="390" y="190" class="cc">. </tspan><tspan class="key">Interests</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">Coding, Development</tspan>
+<tspan x="390" y="210" class="cc">. </tspan>
+<tspan x="390" y="250">- GitHub Stats</tspan> -—————————————————————————————————————————-—-
+<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">5</tspan>
+<tspan x="390" y="290" class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">2</tspan>
+<tspan x="390" y="310" class="cc">. </tspan><tspan class="key">Following</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">4</tspan>
+<tspan x="390" y="330" class="cc">. </tspan><tspan class="key">Account Created</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">2023-09-12</tspan>
+<tspan x="390" y="350" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">addy.main061@gmail.com</tspan>
+<tspan x="390" y="370">- Links</tspan> -—————————————————————————————————————————-—-
+<tspan x="390" y="390" class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">github.com/Shellghostt</tspan>
+<tspan x="390" y="410" class="cc">. </tspan><tspan class="key">Portfolio</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">Shellghostt</tspan>
 </text>
 </svg>
