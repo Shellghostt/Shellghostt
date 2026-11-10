@@ -1,61 +1,40 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="530px" font-size="16px">
-<style>
-@font-face {
-src: local('Consolas'), local('Consolas Bold');
-font-family: 'ConsolasFallback';
-font-display: swap;
--webkit-size-adjust: 109%;
-size-adjust: 109%;
-}
-.key {fill: #ffa657;}
-.value {fill: #a5d6ff;}
-.addColor {fill: #3fb950;}
-.delColor {fill: #f85149;}
-.cc {fill: #616e7f;}
-text, tspan {white-space: pre;}
-</style>
-<rect width="985px" height="530px" fill="#161b22" rx="15"/>
-<text x="15" y="30" fill="#c9d1d9" class="ascii">
-<tspan x="15" y="30">+++++++++++++********++++++++++++++</tspan>
-<tspan x="15" y="50">+++++++++**#%@@@@@@@%%#**++++++++++</tspan>
-<tspan x="15" y="70">++++++++*%@@@@@@@@@@@@@@@%*++++++++</tspan>
-<tspan x="15" y="90">+++++++#@@%@@@@@@@@@@@@@@@%#+++++++</tspan>
-<tspan x="15" y="110">++++++*@@@@@@@@%@@@@@@@@%@@@#++++++</tspan>
-<tspan x="15" y="130">++++*#@@@@@@@@@@@@@@+#@@@@@@@#*++++</tspan>
-<tspan x="15" y="150">++++**@@@@@@@@@@@@@+ =@*@@@@@**++++</tspan>
-<tspan x="15" y="170">++++++*@@@@@@@@@@%@+.*##@@@@%++++++</tspan>
-<tspan x="15" y="190">+++++++%+:-#@#*#*@****#+@%@%*++++++</tspan>
-<tspan x="15" y="210">+++++++#=..:-..=:=:=-.=:-#%*+++++++</tspan>
-<tspan x="15" y="230">++++++++**+*....---: .:--#*++++++++</tspan>
-<tspan x="15" y="250">+++++++++*%@#-:.   .--.:+*+++++++++</tspan>
-<tspan x="15" y="270">++++++++*#%%%===-:..:=+**++++++++++</tspan>
-<tspan x="15" y="290">++++++*#@@@@%::--=-%%@@%#*+++++++++</tspan>
-<tspan x="15" y="310">++++++#@@@@@@=:....=@@@@@%+++++++++</tspan>
-<tspan x="15" y="330">++++*#%%@@@@@@%#*#*#@@@@@@#*+++++++</tspan>
-<tspan x="15" y="350">+++*%%%%%%%%@@@@@@@@@@@%%%%%#++++++</tspan>
-<tspan x="15" y="370">++*%%%%%%%%%%%%%%%@%%%%%%%%%%#+++++</tspan>
-<tspan x="15" y="390">+*%%%%%%%%%%%%%%%%%%%%%%%%%%%@#++++</tspan>
-</text>
-<text x="390" y="30" fill="#c9d1d9">
-<tspan x="390" y="30">Adityaaa@shellghostt</tspan> -———————————————————————————————————————————-—-
-<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Windows, Linux</tspan>
-<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Editor</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">VSCode</tspan>
-<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Shell</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">PowerShell</tspan>
-<tspan x="390" y="110" class="cc">. </tspan>
-<tspan x="390" y="130" class="cc">. </tspan><tspan class="key">Languages.Programming</tspan>:<tspan class="cc"> ... </tspan><tspan class="value">Python, JavaScript, Java</tspan>
-<tspan x="390" y="150" class="cc">. </tspan><tspan class="key">Languages.Web</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">HTML, CSS, JSON</tspan>
-<tspan x="390" y="170" class="cc">. </tspan>
-<tspan x="390" y="190" class="cc">. </tspan><tspan class="key">Interests</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">Coding, Development</tspan>
-<tspan x="390" y="210" class="cc">. </tspan>
-<tspan x="390" y="250">- GitHub Stats</tspan> -—————————————————————————————————————————-—-
-<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">5</tspan>
-<tspan x="390" y="290" class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">2</tspan>
-<tspan x="390" y="310" class="cc">. </tspan><tspan class="key">Following</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">4</tspan>
-<tspan x="390" y="330" class="cc">. </tspan><tspan class="key">Account Created</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">2023-09-12</tspan>
-<tspan x="390" y="350" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">addy.main061@gmail.com</tspan>
-<tspan x="390" y="370">- Links</tspan> -—————————————————————————————————————————-—-
-<tspan x="390" y="390" class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">github.com/Shellghostt</tspan>
-<tspan x="390" y="410" class="cc">. </tspan><tspan class="key">Portfolio</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">Shellghostt</tspan>
-</text>
+<svg width="560" height="340" viewBox="0 0 560 340" xmlns="http://www.w3.org/2000/svg">
+  <rect width="560" height="340" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <style>text{font-family:"SFMono-Regular","Consolas","Liberation Mono","Courier New",monospace;font-size:13px;white-space:pre;}</style>
+  <text x="20" y="40" fill="#58a6ff">ghost@shellghostt</text>
+  <text x="157" y="40" fill="#8b949e">:</text>
+  <text x="165" y="40" fill="#79c0ff">~</text>
+  <text x="173" y="40" fill="#3fb950">$ </text>
+  <text x="189" y="40" fill="#c9d1d9">whoami</text>
+  <text x="20" y="60" fill="#c9d1d9">security student · ctf player · builder</text>
+  <text x="20" y="100" fill="#58a6ff">ghost@shellghostt</text>
+  <text x="157" y="100" fill="#8b949e">:</text>
+  <text x="165" y="100" fill="#79c0ff">~</text>
+  <text x="173" y="100" fill="#3fb950">$ </text>
+  <text x="189" y="100" fill="#c9d1d9">cat focus.txt</text>
+  <text x="20" y="120" fill="#3fb950">web exploitation</text>
+  <text x="149" y="120" fill="#8b949e">  ·  </text>
+  <text x="189" y="120" fill="#3fb950">network recon</text>
+  <text x="20" y="160" fill="#58a6ff">ghost@shellghostt</text>
+  <text x="157" y="160" fill="#8b949e">:</text>
+  <text x="165" y="160" fill="#79c0ff">~</text>
+  <text x="173" y="160" fill="#3fb950">$ </text>
+  <text x="189" y="160" fill="#c9d1d9">ls ~/projects</text>
+  <text x="20" y="180" fill="#79c0ff">agent-scan/       </text>
+  <text x="165" y="180" fill="#8b949e">security scanner for AI agents &amp; MCP</text>
+  <text x="20" y="200" fill="#79c0ff">de-caff/          </text>
+  <text x="165" y="200" fill="#8b949e">js reverse-engineering &amp; audit pipeline</text>
+  <text x="20" y="220" fill="#79c0ff">webvac/           </text>
+  <text x="165" y="220" fill="#8b949e">async scraper for js-heavy sites</text>
+  <text x="20" y="260" fill="#58a6ff">ghost@shellghostt</text>
+  <text x="157" y="260" fill="#8b949e">:</text>
+  <text x="165" y="260" fill="#79c0ff">~</text>
+  <text x="173" y="260" fill="#3fb950">$ </text>
+  <text x="189" y="260" fill="#c9d1d9">./boot --next</text>
+  <text x="20" y="280" fill="#8b949e">[</text>
+  <text x="28" y="280" fill="#3fb950">■■■■■■■■</text>
+  <text x="92" y="280" fill="#8b949e">□□</text>
+  <text x="108" y="280" fill="#8b949e">] </text>
+  <text x="124" y="280" fill="#8b949e">loading next challenge...</text>
+  <text x="20" y="320" fill="#8b949e">last login: 2026-11-10 23:58 UTC</text>
 </svg>

@@ -21,18 +21,24 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
-        run: pip install requests
-
       - name: Generate SVGs
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: python today.py
+
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Shellghostt
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Move snake into repo root
+        run: cp dist/*.svg .
 
       - name: Commit & push if changed
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name  "github-actions[bot]"
-          git add dark_mode.svg light_mode.svg
+          git add dark_mode.svg light_mode.svg github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
           git diff --staged --quiet || \
-            git commit -m "chore: update README stats [skip ci]" && git push
+            git commit -m "chore: update README header [skip ci]" && git push

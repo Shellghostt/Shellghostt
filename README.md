@@ -22,3 +22,12 @@ Python - TypeScript - asyncio - Playwright/Patchright - Node.js
     <img alt="Shellghostt's GitHub Profile README" src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/light_mode.svg">
   </picture>
 </a>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Shellghostt-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shellghostt/)
+[![HackTheBox](https://img.shields.io/badge/HackTheBox-CTF-9FEF00?style=flat-square&logo=hackthebox&logoColor=9FEF00)](https://www.hackthebox.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-Shellghostt-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Shellghostt)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/github-contribution-grid-snake-dark.svg">
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/github-contribution-grid-snake.svg">
+</picture>
