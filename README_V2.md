@@ -1,6 +1,6 @@
 <!-- README_V2 — "MISSION CONTROL" concept. To use: copy over README.md. -->
 
-<img src="https://capsule-render.vercel.app/api?type=venice&color=0:00FF9C,50:00D1FF,100:FF2E88&height=220&section=header&text=SHELLGHOSTT&fontSize=70&fontColor=e6edf3&animation=fadeIn&desc=mission%20control&descSize=20&descColor=8b949e&descAlignY=72" alt="SHELLGHOSTT banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=SHELLGHOSTT&fontSize=70&fontColor=e6edf3&animation=fadeIn&desc=mission%20control&descSize=20&descColor=8b949e&descAlignY=72" alt="SHELLGHOSTT banner" />
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Matrix_Digital_rain_banner.gif" width="100%" alt="Matrix digital rain" />
@@ -14,7 +14,7 @@
 
 <h2>🗺️ sector map</h2>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D contribution city" />
+  <img src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D contribution city" />
 </p>
 
 <h2>🗂️ case files</h2>
@@ -24,14 +24,19 @@
   <a href="https://github.com/Shellghostt/agent-scan"><img src="thumbs/agent-scan.svg" width="32.5%" alt="agent-scan case file" /></a>
 </p>
 
-<h2>🏆 commendations</h2>
+<h2>⭐ star evolution</h2>
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Shellghostt&theme=onestar&no-frame=true&row=1&column=7&margin-w=6" alt="Trophies" />
+  <img src="https://api.star-history.com/svg?repos=Shellghostt/WebVac,Shellghostt/De-Caffeinator,Shellghostt/agent-scan&type=Date&theme=dark" width="80%" alt="Star history" />
 </p>
 
-<h2>📈 activity feed</h2>
+<h2>🔥 commitment streak</h2>
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shellghostt&theme=react-dark&hide_border=true&area=true&area_color=00ff9c&line=00d1ff&point=ffffff" alt="Contribution activity graph" />
+  <img src="https://streak-stats.demolab.com?user=Shellghostt&theme=transparent&hide_border=true&background=0D111700" alt="GitHub Streak" />
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D1FF,100:FF2E88&height=120&section=footer" alt="" />
+<h2>🐍 the hunt continues</h2>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer" alt="" />
