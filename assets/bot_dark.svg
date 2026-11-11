@@ -11,7 +11,7 @@
   <rect x="28" y="49" width="160" height="10" rx="3" fill="#8b949e" opacity="0.3"/>
   <rect x="28" y="49" height="10" rx="3" fill="#3fb950"><animate attributeName="width" values="0;160" dur="4s" repeatCount="indefinite"/></rect>
   <text x="188" y="60" fill="#8b949e">] loading next challenge...</text>
-  <text x="20" y="100" fill="#8b949e">last login: 2026-11-11 00:11 UTC</text>
+  <text x="20" y="100" fill="#8b949e">last login: 2026-11-11 00:12 UTC</text>
   <text x="20" y="120" fill="#58a6ff">ghost@shellghostt</text>
   <text x="156" y="120" fill="#8b949e">:</text>
   <text x="164" y="120" fill="#79c0ff">~</text>
