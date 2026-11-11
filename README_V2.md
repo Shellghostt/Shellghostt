@@ -14,7 +14,7 @@
 
 <h2>🗺️ sector map</h2>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/profile-3d-contribution.svg" width="100%" alt="3D contribution city" />
+  <img src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D contribution city" />
 </p>
 
 <h2>🗂️ case files</h2>
