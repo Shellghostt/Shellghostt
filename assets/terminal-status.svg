@@ -1,6 +1,0 @@
-<svg width="800" height="24" viewBox="0 0 800 24" 
-xmlns="http://www.w3.org/2000/svg">
-  <style>text{font-family:"SFMono-Regular","Consolas","Liberation Mono","Courier New",monospace;font-size:13px;white-space:pre;}</style>
-  <text x="20" y="17" fill="#d29922">status</text>
-  <text x="68" y="17" fill="#8b949e">──────────────────────────────────────────────────────────────────────────────────────</text>
-</svg>
