@@ -13,9 +13,7 @@
 
 ---
 
-## About
-
-Freelance **Python/TypeScript developer** building web-scraping, reconnaissance, and security tooling. **Open-source contributor** focused on practical cyber defense, network security, AI security, and secure web applications.
+I turn curiosity into useful software — from scraping and automation to tools that help me understand how systems fail, communicate, and become safer. I enjoy working across the boundary between **building**, **breaking**, and **defending**.
 
 ## Focus
 
@@ -26,7 +24,13 @@ Freelance **Python/TypeScript developer** building web-scraping, reconnaissance,
 
 ## Toolbox
 
-`Python` `TypeScript` `JavaScript` `Linux` `Git` `Burp Suite` `Nmap` `Wireshark`
+**Security & infrastructure**
+
+`Linux` `Git` `Docker` `Kali Linux` `Burp Suite` `OWASP ZAP` `Nmap` `Wireshark` `Metasploit` `SQLmap` `ffuf` `Gobuster` `Hashcat` `Ghidra`
+
+**Development & data**
+
+`Python` `TypeScript` `JavaScript` `Node.js` `React` `FastAPI` `Flask` `PostgreSQL` `MongoDB` `Redis` `REST APIs` `GitHub Actions` `OpenCV`
 
 ## Selected work
 
@@ -34,11 +38,11 @@ Freelance **Python/TypeScript developer** building web-scraping, reconnaissance,
 - [agent-scan](https://github.com/Shellghostt/agent-scan) — security-focused automation
 - [De-Caffeinator](https://github.com/Shellghostt/De-Caffeinator) — practical developer tooling
 
-## Open-source activity
+## Open-source
 
-[![GitHub contribution activity](https://github-readme-activity-graph.vercel.app/graph?username=Shellghostt&bg_color=ffffff00&color=374151&line=06b6d4&point=0f172a&area=true&hide_border=true)](https://github.com/Shellghostt?tab=overview)
+**Open-source contributor** building, testing, and sharing tools in public. The most reliable way to see my latest contributions is through GitHub directly:
 
-[View contributions](https://github.com/Shellghostt?tab=overview) · [Browse repositories](https://github.com/Shellghostt?tab=repositories) · [See public activity](https://github.com/Shellghostt?tab=activity)
+[Contribution overview](https://github.com/Shellghostt?tab=overview) · [Commit history](https://github.com/Shellghostt?tab=overview&from=2020-01-01&to=2099-12-31) · [Repositories](https://github.com/Shellghostt?tab=repositories) · [Public activity](https://github.com/Shellghostt?tab=activity)
 
 ## Currently learning
 
