@@ -1,0 +1,19 @@
+<svg width="560" height="120" viewBox="0 0 560 120" xmlns="http://www.w3.org/2000/svg">
+  <style>text{font-family:"SFMono-Regular","Consolas","Liberation Mono","Courier New",monospace;font-size:13px;white-space:pre;}</style>
+  <path d="M0,120 L0,10 Q0,0 10,0 L550,0 Q560,0 560,10 L560,120 Z" fill="#0d1117"/>
+  <path d="M0,120 L0,10 Q0,0 10,0 L550,0 Q560,0 560,10 L560,120" fill="none" stroke="#30363d" stroke-width="1"/>
+  <text x="20" y="40" fill="#58a6ff">ghost@shellghostt</text>
+  <text x="156" y="40" fill="#8b949e">:</text>
+  <text x="164" y="40" fill="#79c0ff">~</text>
+  <text x="172" y="40" fill="#3fb950">$ </text>
+  <text x="188" y="40" fill="#c9d1d9">whoami</text>
+  <text x="20" y="60" fill="#c9d1d9">security student · ctf player · builder</text>
+  <text x="20" y="100" fill="#58a6ff">ghost@shellghostt</text>
+  <text x="156" y="100" fill="#8b949e">:</text>
+  <text x="164" y="100" fill="#79c0ff">~</text>
+  <text x="172" y="100" fill="#3fb950">$ </text>
+  <text x="188" y="100" fill="#c9d1d9">cat focus.txt</text>
+  <text x="20" y="120" fill="#3fb950">web exploitation</text>
+  <text x="148" y="120" fill="#8b949e">  ·  </text>
+  <text x="188" y="120" fill="#3fb950">network recon</text>
+</svg>

@@ -16,18 +16,41 @@ Python - TypeScript - asyncio - Playwright/Patchright - Node.js
 
 ---
 
-<a href="https://github.com/Shellghostt/Shellghostt">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/dark_mode.svg">
-    <img alt="Shellghostt's GitHub Profile README" src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/light_mode.svg">
-  </picture>
-</a>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Shellghostt-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shellghostt/)
-[![HackTheBox](https://img.shields.io/badge/HackTheBox-CTF-9FEF00?style=flat-square&logo=hackthebox&logoColor=9FEF00)](https://www.hackthebox.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-Shellghostt-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Shellghostt)
+<div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/github-contribution-grid-snake-dark.svg">
-  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/top_dark.svg">
+  <img alt="Shellghostt's profile terminal" src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/top_light.svg" width="100%">
 </picture>
+
+<a href="https://github.com/Shellghostt?tab=repositories"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/ph_dark.svg">
+  <img alt="Projects" src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/ph_light.svg" width="100%">
+</picture></a>
+
+<a href="https://github.com/Shellghostt/agent-scan"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/p1_dark.svg">
+  <img alt="agent-scan — security scanner for AI agents & MCP" src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/p1_light.svg" width="100%">
+</picture></a>
+
+<a href="https://github.com/Shellghostt/De-Caffeinator"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/p2_dark.svg">
+  <img alt="de-caff — js reverse-engineering & audit pipeline" src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/p2_light.svg" width="100%">
+</picture></a>
+
+<a href="https://github.com/Shellghostt/WebVac"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/p3_dark.svg">
+  <img alt="webvac — async scraper for js-heavy sites" src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/p3_light.svg" width="100%">
+</picture></a>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/bot_dark.svg">
+  <img alt="Boot sequence footer" src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/bot_light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/github-contribution-grid-snake-dark.svg">
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/github-contribution-grid-snake.svg" width="100%">
+</picture>
+
+</div>

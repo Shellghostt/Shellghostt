@@ -32,13 +32,13 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Move snake into repo root
-        run: cp dist/*.svg .
+      - name: Move snake into assets
+        run: cp dist/*.svg assets/
 
       - name: Commit & push if changed
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name  "github-actions[bot]"
-          git add dark_mode.svg light_mode.svg github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
+          git add assets
           git diff --staged --quiet || \
             git commit -m "chore: update README header [skip ci]" && git push

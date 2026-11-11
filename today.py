@@ -1,47 +1,46 @@
-"""Generate the boot-sequence terminal SVG header (dark + light) for the profile README."""
+"""Generate the boot-sequence terminal SVG header (dark + light) for the profile README.
 
+The terminal is sliced into stacked strips so each clickable region (the projects
+header and every project line) can be wrapped in its own <a href> in the README —
+links inside a single SVG are dead once GitHub serves it as an <img>.
+"""
+
+import os
 from datetime import datetime, timezone
+
+LH  = 20   # line height px
+FS  = 13   # font size px
+PAD = 20   # outer padding px
+W   = 560  # card width px
+RX  = 10   # corner radius px
+ADV = 8    # monospace char advance (FS * 0.62, rounded)
+
+BAR_W = 160  # loading-bar width px
 
 
 def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def generate_svg(theme="dark"):
-    # ── Colour palette ──────────────────────────────────────────────────
-    if theme == "dark":
-        bg      = "#0d1117"
-        border  = "#30363d"
-        user    = "#58a6ff"   # ghost@shellghostt
-        dir_c   = "#79c0ff"   # ~
-        prompt  = "#3fb950"   # $, progress fill, focus values
-        text    = "#c9d1d9"
-        muted   = "#8b949e"
-    else:
-        bg      = "#f6f8fa"
-        border  = "#d0d7de"
-        user    = "#0550ae"
-        dir_c   = "#0969da"
-        prompt  = "#1a7f37"
-        text    = "#24292f"
-        muted   = "#57606a"
-
-    head = [
+def prompt_head():
+    return [
         ("ghost@shellghostt", "user"),
-        (":",                  "muted"),
-        ("~",                  "dir"),
-        ("$ ",                 "prompt"),
+        (":",                 "muted"),
+        ("~",                 "dir"),
+        ("$ ",                "prompt"),
     ]
 
-    # ── Projects listing (name column padded for alignment) ─────────────
+
+def build_lines():
+    """Full terminal content as (segments, theme) rows; BAR and CURSOR are
+    special markers rendered with SMIL animation."""
+    head = prompt_head()
     projects = [
-        ("agent-scan/",     "security scanner for AI agents & MCP"),
-        ("de-caff/",        "js reverse-engineering & audit pipeline"),
-        ("webvac/",         "async scraper for js-heavy sites"),
+        ("agent-scan/", "security scanner for AI agents & MCP"),
+        ("de-caff/",    "js reverse-engineering & audit pipeline"),
+        ("webvac/",     "async scraper for js-heavy sites"),
     ]
 
-    # ── Boot sequence lines ─────────────────────────────────────────────
-    # Each line is a list of (text, style) segments; [] is a blank line.
     lines = [
         head + [("whoami", "cmd")],
         [("security student · ctf player · builder", "text")],
@@ -56,62 +55,100 @@ def generate_svg(theme="dark"):
     lines += [
         [],
         head + [("./boot --next", "cmd")],
-        [("[", "muted"), ("■■■■■■■■", "prompt"), ("□□", "muted"), ("] ", "muted"),
-         ("loading next challenge...", "muted")],
+        [("[", "muted"), ("BAR", "bar"), ("] loading next challenge...", "muted")],
         [],
         [(f"last login: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}", "muted")],
+        head + [("CURSOR", "cursor")],
     ]
+    return lines
 
-    colour_map = {
-        "user":   user,
-        "dir":    dir_c,
-        "prompt": prompt,
-        "cmd":    text,
-        "text":   text,
-        "muted":  muted,
-    }
 
-    # ── Layout maths ────────────────────────────────────────────────────
-    lh      = 20          # line height px
-    fs      = 13          # font size px
-    pad     = 20          # outer padding
-    width   = 560         # fixed card width
-    total_h = len(lines) * lh + pad * 2
+# (name, line slice, link target) — link goes into the README's <a href> wrapper
+STRIPS = [
+    ("top", slice(0, 5),  None),
+    ("ph",  slice(5, 7),  "https://github.com/Shellghostt?tab=repositories"),
+    ("p1",  slice(7, 8),  "https://github.com/Shellghostt/agent-scan"),
+    ("p2",  slice(8, 9),  "https://github.com/Shellghostt/De-Caffeinator"),
+    ("p3",  slice(9, 10), "https://github.com/Shellghostt/WebVac"),
+    ("bot", slice(10, 16), None),
+]
+
+
+def strip_svg(chunk, role, theme):
+    if theme == "dark":
+        bg, border = "#0d1117", "#30363d"
+        user, dir_c, prompt, text, muted = "#58a6ff", "#79c0ff", "#3fb950", "#c9d1d9", "#8b949e"
+    else:
+        bg, border = "#f6f8fa", "#d0d7de"
+        user, dir_c, prompt, text, muted = "#0550ae", "#0969da", "#1a7f37", "#24292f", "#57606a"
+
+    colour_map = {"user": user, "dir": dir_c, "prompt": prompt,
+                  "cmd": text, "text": text, "muted": muted}
+
+    pad_top = PAD if role == "top" else 0
+    pad_bot = PAD if role == "bot" else 0
+    h = len(chunk) * LH + pad_top + pad_bot
+    y0 = PAD + LH if role == "top" else LH
 
     svg = [
-        f'<svg width="{width}" height="{total_h}" viewBox="0 0 {width} {total_h}" '
-        f'xmlns="http://www.w3.org/2000/svg">'
-    ]
-    svg.append(
-        f'  <rect width="{width}" height="{total_h}" rx="10" '
-        f'fill="{bg}" stroke="{border}" stroke-width="1"/>'
-    )
-    svg.append(
+        f'<svg width="{W}" height="{h}" viewBox="0 0 {W} {h}" '
+        f'xmlns="http://www.w3.org/2000/svg">',
         f'  <style>text{{font-family:"SFMono-Regular","Consolas","Liberation Mono",'
-        f'"Courier New",monospace;font-size:{fs}px;white-space:pre;}}</style>'
-    )
+        f'"Courier New",monospace;font-size:{FS}px;white-space:pre;}}</style>',
+    ]
 
-    y0 = pad + lh
-    for i, line in enumerate(lines):
-        y = y0 + i * lh
-        x = pad
+    # ── Background + borders (stitched so stacked strips read as one card) ──
+    if role == "top":
+        fill_d = f"M0,{h} L0,{RX} Q0,0 {RX},0 L{W - RX},0 Q{W},0 {W},{RX} L{W},{h} Z"
+        line_d = f"M0,{h} L0,{RX} Q0,0 {RX},0 L{W - RX},0 Q{W},0 {W},{RX} L{W},{h}"
+        svg.append(f'  <path d="{fill_d}" fill="{bg}"/>')
+        svg.append(f'  <path d="{line_d}" fill="none" stroke="{border}" stroke-width="1"/>')
+    elif role == "bot":
+        fill_d = f"M0,0 L0,{h - RX} Q0,{h} {RX},{h} L{W - RX},{h} Q{W},{h} {W},{h - RX} L{W},0 Z"
+        line_d = f"M0,0 L0,{h - RX} Q0,{h} {RX},{h} L{W - RX},{h} Q{W},{h} {W},{h - RX} L{W},0"
+        svg.append(f'  <path d="{fill_d}" fill="{bg}"/>')
+        svg.append(f'  <path d="{line_d}" fill="none" stroke="{border}" stroke-width="1"/>')
+    else:
+        svg.append(f'  <rect width="{W}" height="{h}" fill="{bg}"/>')
+        svg.append(f'  <rect x="0" width="1" height="{h}" fill="{border}"/>')
+        svg.append(f'  <rect x="{W - 1}" width="1" height="{h}" fill="{border}"/>')
+
+    # ── Content ─────────────────────────────────────────────────────────
+    for i, line in enumerate(chunk):
+        y = y0 + i * LH
+        x = PAD
         for content, style in line:
-            svg.append(
-                f'  <text x="{x}" y="{y}" fill="{colour_map[style]}">{esc(content)}</text>'
-            )
-            # 0.62 is a good monospace advance-width factor for 13px
-            x += round(len(content) * fs * 0.62)
+            if style == "bar":
+                # animated loading bar: dim track + green fill sweeping across
+                by = y - 11
+                svg.append(f'  <rect x="{x}" y="{by}" width="{BAR_W}" height="10" rx="3" '
+                           f'fill="{muted}" opacity="0.3"/>')
+                svg.append(f'  <rect x="{x}" y="{by}" height="10" rx="3" fill="{prompt}">'
+                           f'<animate attributeName="width" values="0;{BAR_W}" dur="4s" '
+                           f'repeatCount="indefinite"/></rect>')
+                x += BAR_W
+            elif style == "cursor":
+                svg.append(f'  <text x="{x}" y="{y}" fill="{prompt}">█'
+                           f'<animate attributeName="opacity" values="1;1;0;0" '
+                           f'keyTimes="0;0.5;0.501;1" dur="1.4s" repeatCount="indefinite"/>'
+                           f'</text>')
+            else:
+                svg.append(f'  <text x="{x}" y="{y}" fill="{colour_map[style]}">{esc(content)}</text>')
+                x += len(content) * ADV
 
     svg.append("</svg>")
     return "\n".join(svg)
 
 
 def main():
+    os.makedirs("assets", exist_ok=True)
+    lines = build_lines()
     for theme in ("dark", "light"):
-        path = f"{theme}_mode.svg"
-        with open(path, "w", encoding="utf-8") as f:
-            f.write(generate_svg(theme))
-        print(f"  wrote {path}")
+        for name, chunk, _ in STRIPS:
+            path = f"assets/{name}_{theme}.svg"
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(strip_svg(lines[chunk], name, theme))
+            print(f"  wrote {path}")
 
 
 if __name__ == "__main__":
