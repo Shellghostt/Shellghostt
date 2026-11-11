@@ -1,8 +1,0 @@
-<svg width="560" height="20" viewBox="0 0 560 20" xmlns="http://www.w3.org/2000/svg">
-  <style>text{font-family:"SFMono-Regular","Consolas","Liberation Mono","Courier New",monospace;font-size:13px;white-space:pre;}</style>
-  <rect width="560" height="20" fill="#0d1117"/>
-  <rect x="0" width="1" height="20" fill="#30363d"/>
-  <rect x="559" width="1" height="20" fill="#30363d"/>
-  <text x="20" y="20" fill="#79c0ff">de-caff/          </text>
-  <text x="164" y="20" fill="#8b949e">js reverse-engineering &amp; audit pipeline</text>
-</svg>

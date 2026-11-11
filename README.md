@@ -1,56 +1,19 @@
-<!-- oss-profile-v1 -->
-## Hi, I'm Aditya (Shellghostt)
-
-Freelance Python & TypeScript developer building open-source web scraping and security tooling.
-
-### What I maintain
-- **[WebVac](https://github.com/Shellghostt/WebVac)** - asyncio scraping & crawling for JS-heavy targets (Patchright, proxy rotation, sessions)
-- **[De-Caffeinator](https://github.com/Shellghostt/De-Caffeinator)** - JavaScript reverse engineering & asset analysis for security auditing
-- **[NYRA](https://github.com/Shellghostt/NYRA-Natural-Yoga-Recognition-Assistant)** - real-time yoga pose recognition with Python
-
-### What I contribute to
-Scraping, browser-automation and security projects in Python/TypeScript. Recent merged work: prompt-injection defence in BaitWatch, fresh-clone launch fix in builderbot-minecraft-agent.
-
-### Stack
-Python - TypeScript - asyncio - Playwright/Patchright - Node.js
+<pre><img src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/terminal-top.svg" align="top" alt="Terminal window: Aditya (Shellghostt). Security student, CTF player, builder. Web exploitation and network recon." /><a href="https://www.linkedin.com/in/shellghostt/"><img src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/link_linkedin.svg" align="top" alt="LinkedIn" /></a><a href="https://github.com/Shellghostt"><img src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/link_github.svg" align="top" alt="GitHub" /></a><a href="https://github.com/Shellghostt/WebVac"><img src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/link_webvac.svg" align="top" alt="WebVac" /></a><a href="https://github.com/Shellghostt/De-Caffeinator"><img src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/link_de-caff.svg" align="top" alt="De-Caffeinator" /></a><a href="https://github.com/Shellghostt/agent-scan"><img src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/link_agent-scan.svg" align="top" alt="agent-scan" /></a><img src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/terminal-fetch.svg" align="top" alt="fastfetch: aditya@shellghostt. Linux, Windows. zsh, PowerShell. VSCode, Zed. Python, TypeScript, JS. Web exploitation, recon. Student by day. Builder by night." /><img src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/terminal-status.svg" align="top" alt="" /><img src="https://komarev.com/ghpvc/?username=Shellghostt&amp;color=313244&amp;style=flat-square&amp;label=views" align="top" alt="Profile views" /><img src="https://img.shields.io/github/followers/Shellghostt?style=flat-square&amp;color=313244&amp;labelColor=1e1e2e&amp;label=followers" align="top" alt="GitHub followers" /><img src="https://img.shields.io/github/stars/Shellghostt?style=flat-square&amp;color=313244&amp;labelColor=1e1e2e&amp;label=stars" align="top" alt="GitHub stars" /></pre>
 
 ---
 
-<div align="center">
+| Metrics                                                            | Stats                                                                                                                                                             |
+| :----------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://github-readme-stats.vercel.app/api?username=Shellghostt&amp;show_icons=true&amp;theme=transparent&amp;hide_border=true" alt="Metrics" /> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shellghostt&amp;layout=compact&amp;theme=transparent&amp;hide_border=true" alt="Top Languages"/><br/><img src="https://github-readme-streak-stats-eight.vercel.app/?user=Shellghostt&amp;theme=transparent&amp;hide_border=true&amp;short_numbers=true" alt="GitHub Streak" /> |
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/top_dark.svg">
-  <img alt="Shellghostt's profile terminal" src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/top_light.svg" width="100%">
-</picture>
+---
 
-<a href="https://github.com/Shellghostt?tab=repositories"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/ph_dark.svg">
-  <img alt="Projects" src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/ph_light.svg" width="100%">
-</picture></a>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation" />
+</p>
 
-<a href="https://github.com/Shellghostt/agent-scan"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/p1_dark.svg">
-  <img alt="agent-scan — security scanner for AI agents & MCP" src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/p1_light.svg" width="100%">
-</picture></a>
+---
 
-<a href="https://github.com/Shellghostt/De-Caffeinator"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/p2_dark.svg">
-  <img alt="de-caff — js reverse-engineering & audit pipeline" src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/p2_light.svg" width="100%">
-</picture></a>
-
-<a href="https://github.com/Shellghostt/WebVac"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/p3_dark.svg">
-  <img alt="webvac — async scraper for js-heavy sites" src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/p3_light.svg" width="100%">
-</picture></a>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/bot_dark.svg">
-  <img alt="Boot sequence footer" src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/bot_light.svg" width="100%">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/github-contribution-grid-snake-dark.svg">
-  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/github-contribution-grid-snake.svg" width="100%">
-</picture>
-
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Shellghostt/Shellghostt/main/assets/toolbox-footer.svg" width="700" alt="Tech chips: python, typescript, javascript, bash, linux, git, github." />
+</p>

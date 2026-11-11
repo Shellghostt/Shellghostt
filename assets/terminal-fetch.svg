@@ -1,0 +1,29 @@
+<svg width="800" height="260" viewBox="0 0 800 260" 
+xmlns="http://www.w3.org/2000/svg">
+  <style>text{font-family:"SFMono-Regular","Consolas","Liberation Mono","Courier New",monospace;font-size:13px;white-space:pre;}</style>
+  <rect width="800" height="260" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <text x="20" y="40" fill="#79c0ff">        .::::.</text>
+  <text x="20" y="60" fill="#79c0ff">      .::::::::.</text>
+  <text x="20" y="80" fill="#79c0ff">     :::::::::::::</text>
+  <text x="20" y="100" fill="#79c0ff">    :::  (o)(o)  :::</text>
+  <text x="20" y="120" fill="#79c0ff">    :::    __    :::</text>
+  <text x="20" y="140" fill="#79c0ff">    :::  \____/  :::</text>
+  <text x="20" y="160" fill="#79c0ff">     '::::::::::::</text>
+  <text x="20" y="180" fill="#79c0ff">       :::::::::::.</text>
+  <text x="20" y="200" fill="#79c0ff">      /::::::::::::\\</text>
+  <text x="20" y="220" fill="#79c0ff">     /:::: | | :::::\\</text>
+  <text x="20" y="240" fill="#79c0ff">    '   '  |_|  '   '</text>
+  <text x="240" y="40" fill="#58a6ff">aditya@shellghostt</text>
+  <text x="240" y="60" fill="#8b949e">──────────────────────────────</text>
+  <text x="240" y="80" fill="#d29922">OS      </text>
+  <text x="304" y="80" fill="#c9d1d9">Linux · Windows</text>
+  <text x="240" y="100" fill="#d29922">Shell   </text>
+  <text x="304" y="100" fill="#c9d1d9">zsh · PowerShell</text>
+  <text x="240" y="120" fill="#d29922">Editor  </text>
+  <text x="304" y="120" fill="#c9d1d9">VSCode · Zed</text>
+  <text x="240" y="140" fill="#d29922">Langs   </text>
+  <text x="304" y="140" fill="#c9d1d9">Python · TypeScript · JS</text>
+  <text x="240" y="160" fill="#d29922">Focus   </text>
+  <text x="304" y="160" fill="#c9d1d9">web exploitation · recon</text>
+  <text x="240" y="200" fill="#c9d1d9">student by day. builder by night.</text>
+</svg>

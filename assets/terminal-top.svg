@@ -1,0 +1,25 @@
+<svg width="800" height="170" viewBox="0 0 800 170" 
+xmlns="http://www.w3.org/2000/svg">
+  <style>text{font-family:"SFMono-Regular","Consolas","Liberation Mono","Courier New",monospace;font-size:13px;white-space:pre;}</style>
+  <rect width="800" height="170" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <path d="M0,10 Q0,0 10,0 L790,0 Q800,0 800,10 L800,30 L0,30 Z" fill="#161b22"/>
+  <line x1="0" y1="30" x2="800" y2="30" stroke="#30363d"/>
+  <circle cx="20" cy="15" r="5" fill="#ff5f56"/>
+  <circle cx="40" cy="15" r="5" fill="#ffbd2e"/>
+  <circle cx="60" cy="15" r="5" fill="#27c93f"/>
+  <text x="400.0" y="19" fill="#8b949e" text-anchor="middle">aditya@shellghostt — zsh</text>
+  <text x="20" y="70" fill="#58a6ff">ghost@shellghostt</text>
+  <text x="156" y="70" fill="#8b949e">:</text>
+  <text x="164" y="70" fill="#79c0ff">~</text>
+  <text x="172" y="70" fill="#3fb950">$ </text>
+  <text x="188" y="70" fill="#c9d1d9">whoami</text>
+  <text x="20" y="90" fill="#c9d1d9">security student · ctf player · builder</text>
+  <text x="20" y="130" fill="#58a6ff">ghost@shellghostt</text>
+  <text x="156" y="130" fill="#8b949e">:</text>
+  <text x="164" y="130" fill="#79c0ff">~</text>
+  <text x="172" y="130" fill="#3fb950">$ </text>
+  <text x="188" y="130" fill="#c9d1d9">cat focus.txt</text>
+  <text x="20" y="150" fill="#3fb950">web exploitation</text>
+  <text x="148" y="150" fill="#8b949e">  ·  </text>
+  <text x="188" y="150" fill="#3fb950">network recon</text>
+</svg>
